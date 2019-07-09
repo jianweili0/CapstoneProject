@@ -1,0 +1,80 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hero-content-area .hero-text {
+        width: 450px;
+    }
+    .hero-area {
+        height: 600px;
+    }
+    .bgimage{
+        height: 600px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-content-area .hero-text {
+        width: 330px;
+    }
+    .hero-area {
+        height: 500px;
+    }
+    .bgimage{
+        height: 500px;
+    }
+    .hero-content-area .hero-text h2 {
+        font-size: 30px;
+    }
+    .title {
+        font-size: 16px!important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .hero-area {
+        height: 500px;
+    }
+    .bgimage{
+        height: 500px;
+    }
+    .hero-content-area {
+        width: calc(95% - 15px);
+        padding: 30px 25px;
+    }
+    .hero-content-area .hero-text h2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .hero-content-area .hero-text {
+        width: 225px;
+    }
+    .title {
+        font-size: 14px!important;
+    }
+    .hide-small {
+        display: none;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .hero-content-area .hero-text {
+        width: 320px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .hero-content-area .hero-text {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .ui.fixed.inverted.menu {
+        display: none !important;
+    }
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+        display: none;
+    }
+    .secondary.pointing.menu .toc.item {
+        display: block;
+    }
+}
