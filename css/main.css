@@ -6,6 +6,17 @@ h1, h2, h3, h4, h5 {
 	/*font-family: 'Amaranth', sans-serif!important;*/
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    text-align: left;
+}
+
+
 p {
 	text-align: justify;
 }
@@ -110,3 +121,9 @@ p {
 .questions p {
 	text-align: center;
 }
+
+
+
+ .dropdown:hover .dropdown-menu {
+    display: block;
+  }
