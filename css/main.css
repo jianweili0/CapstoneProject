@@ -64,19 +64,9 @@ p {
     font-size: 24px;
   }
 
-.hero-area {
-    width: 100%;
-    height: 720px;
-    background-image: url(../img/frontpage.jpg);
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    z-index: 1;
-    margin-top: -80px;
-    margin-bottom: 50px;
-}
 
-.hero-content-area {
+/* in case we need text over image */
+.bg-content-area {
     width: calc(50% - 25px);
     background-color: rgba(255,255,255,0.8);
     padding: 80px 50px 50px;
@@ -86,7 +76,7 @@ p {
     top: calc(50% + 15px);
 }
 
-.hero-content-area .hero-text h2 {
+.bg-content-area .hero-text h2 {
     font-size: 36px;
     /*font-weight: 700;*/
     text-transform: uppercase;
@@ -122,8 +112,3 @@ p {
 	text-align: center;
 }
 
-
-
- .dropdown:hover .dropdown-menu {
-    display: block;
-  }
